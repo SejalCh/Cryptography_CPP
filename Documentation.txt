@@ -1,0 +1,69 @@
+Overview
+This program provides a simple command-line interface for performing basic encryption and decryption using two popular algorithms: Caesar Cipher and Vigenère Cipher. The tool allows users to encrypt and decrypt messages based on user-selected algorithms.
+
+Features
+Caesar Cipher
+
+A substitution cipher where each letter in the plaintext is "shifted" a certain number of places down or up the alphabet.
+Users can specify a shift value (1-25) for encryption and decryption.
+Vigenère Cipher
+
+A method of encrypting alphabetic text by using a simple form of polyalphabetic substitution.
+Users provide a keyword that determines the shifting for each letter in the plaintext.
+Usage Instructions
+Running the Program
+
+Compile the code using a C++ compiler.
+Run the executable file from the command line.
+Selecting an Algorithm
+
+When prompted, choose an algorithm by entering:
+1 for Caesar Cipher
+2 for Vigenère Cipher
+Inputting Data
+
+For the Caesar Cipher:
+Enter the message you wish to encrypt or decrypt.
+Provide a shift value (between 1 and 25).
+Select whether you want to encrypt or decrypt the message.
+For the Vigenère Cipher:
+Enter the message you wish to encrypt or decrypt.
+Provide a keyword (alphabetic only).
+Select whether you want to encrypt or decrypt the message.
+Output
+
+The program will display the resulting encrypted or decrypted message based on your input.
+
+Example
+1. Caesar Cipher
+
+Choose an algorithm to use:
+A. Caesar Cipher
+
+Please enter the number corresponding to your choice: 1
+
+--- Caesar Cipher ---
+Enter your message: HELLO
+Enter the shift value (1-25): 3
+Choose an operation:
+1. Encrypt the message
+2. Decrypt the message
+Please enter your choice: 1
+Encrypted message: KHOOR
+
+B.Vigenere Cipher
+
+Choose an algorithm to use:
+2. Vigenère Cipher
+Enter your message: ATTACKATDAWN
+Enter your keyword (alphabetic only): LEMON
+Choose an operation:
+1. Encrypt the message
+2. Decrypt the message
+Please enter your choice: 1
+Encrypted message: LXFOPVEFRNHR
+
+Conclusion
+This cryptography tool serves as a simple introduction to basic encryption techniques, suitable for educational purposes or as a starting point for more complex cryptographic implementations. Users are encouraged to explore the algorithms further and consider additional features such as error handling and support for more encryption methods.
+
+
