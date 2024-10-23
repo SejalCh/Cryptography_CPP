@@ -84,7 +84,7 @@ int main() {
              << vigenere(message, key, operation == 1) << endl;
 
     } else {
-        cout << "Invalid algorithm choice! Please the program and try again." << endl;
+        cout << "Invalid algorithm choice! Please rerun the program and try again." << endl;
     }
 
     return 0;
